@@ -31,7 +31,7 @@ export const useWeglot = (api_key: string, defaultLanguage: string = 'en') => {
       // @ts-ignore
       if (window.Weglot.initialized) {
         // @ts-ignore
-        window.Weglot.switchTo(lang);
+        window.Weglot.switchTo(language);
       }
     }
   }, [language]);
