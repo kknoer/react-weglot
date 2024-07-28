@@ -4,5 +4,24 @@
   "main": "index.js",
   "repository": "https://github.com/as1605/react-weglot.git",
   "author": "as1605 <1605.aditya.singh@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "prepack": "rm -rf lib && tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.72",
+    "typescript": "^5.4.3"
+  },
+  "keywords": [
+    "react",
+    "weglot",
+    "translate",
+    "i18n",
+    "nextjs"
+  ]
 }
