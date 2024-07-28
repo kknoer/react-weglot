@@ -1,10 +1,12 @@
 {
   "name": "react-weglot",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
   "repository": "https://github.com/as1605/react-weglot.git",
   "author": "as1605 <1605.aditya.singh@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "private": false,
   "peerDependencies": {
     "react": "^18.2.0"
