@@ -1,0 +1,8 @@
+{
+  "name": "react-weglot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/as1605/react-weglot.git",
+  "author": "as1605 <1605.aditya.singh@gmail.com>",
+  "license": "MIT"
+}
