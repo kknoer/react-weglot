@@ -5,20 +5,12 @@ __metadata:
   version: 7
   cacheKey: 9
 
-"@types/prop-types@npm:*":
-  version: 15.7.12
-  resolution: "@types/prop-types@npm:15.7.12"
-  checksum: 3aec97c40399574717681644676b2a515efea63010be91cac74b45dbb29b81ca13daa357f7dff100730849d49b40e54037df562c3fcea4186d6c1d1a73ba7a09
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^18.2.72":
-  version: 18.3.3
-  resolution: "@types/react@npm:18.3.3"
+"@types/react@npm:^19.0.0":
+  version: 19.0.8
+  resolution: "@types/react@npm:19.0.8"
   dependencies:
-    "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: e005766b6b2f18f02261de8206018fccf234b455c0b9fb4ddb5ddc3c0896f0e8553041473e9b7866a9375be28531ec99369d5fd4136ec2772ff684da85d89154
+  checksum: 53978e731a434ac8811dc518e69db0a977e3800eaa2ec45fccd5481460908c05999c3f1041456e99c4192fc8c28bb1e9f87ce154e70e445cac721f3266997c1f
   languageName: node
   linkType: hard
 
@@ -33,29 +25,29 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-weglot@workspace:."
   dependencies:
-    "@types/react": "npm:^18.2.72"
-    typescript: "npm:^5.4.3"
+    "@types/react": "npm:^19.0.0"
+    typescript: "npm:^5.7.3"
   peerDependencies:
     react: ^19.0.0
   languageName: unknown
   linkType: soft
 
-"typescript@npm:^5.4.3":
-  version: 5.5.4
-  resolution: "typescript@npm:5.5.4"
+"typescript@npm:^5.7.3":
+  version: 5.7.3
+  resolution: "typescript@npm:5.7.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 7151bcf2453f5ec1c0033f43207fb78a355af53d7cf577baf334f4ddd837fd8deec5c68115e4e0591097eb281a13e0fd9e4c38b65608e93c4ba34514b66d2956
+  checksum: 273faf89761e11a07436537c420662840be800c08712282c36e161181adf380524db5d36825922a5645b9c9ac03fa43d716eca6423eca3fd5141a6f678dacec7
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.4.3#optional!builtin<compat/typescript>":
-  version: 5.5.4
-  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=1f5320"
+"typescript@patch:typescript@npm%3A^5.7.3#optional!builtin<compat/typescript>":
+  version: 5.7.3
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=1f5320"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d395a76bf89753531afc686807794535bab55ab06d34ba1917df2f89d8780a7c6592554c1c2880bb7bf126c990626471bc186df10bccb87af17f59036765551c
+  checksum: e0f993b468af3dfb46cf10046f0674350fb898c075633ce4842ef42ffd35a7de415201ec502e3a2c433765f73d37672e892dd0a8ef2df7db81ace24ffbf2106f
   languageName: node
   linkType: hard
